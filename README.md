@@ -1,2 +1,3 @@
 # Free Code Camp
-JavaScript
+##JavaScript
+Basic Algorithm Scripting
