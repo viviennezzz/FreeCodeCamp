@@ -1,0 +1,14 @@
+function rot13(str) { // LBH QVQ VG!
+    return str.replace(/[A-Z]/g, newLetter);
+    function newLetter(letter) {
+    var newIndex = letter.charCodeAt(0) + 13;
+    if (newIndex > 90) 
+    {
+      newIndex -= 26;
+    }
+    return String.fromCharCode(newIndex);
+  }
+}
+
+// Change the inputs below to test
+rot13("SERR PBQR PNZC");
